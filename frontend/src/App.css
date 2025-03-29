@@ -28,11 +28,11 @@ main .right{
 
 main .left{
   position: relative;
-  background-color: black;
+  background-color: rgb(139, 59, 196);
 }
 
 main .right{
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(102, 117, 119);   /*answer screen*/
   padding: 1rem 2rem;
   overflow-y: scroll;
 }
@@ -41,8 +41,8 @@ main .left .review{
   position: absolute;
   bottom: 1rem;
   right: 1rem;
-  background-color: rgb(117, 117, 235);
-  color: black;
+  background-color: rgb(9, 27, 59);
+  color: rgb(255, 255, 255);
   padding: 0.5rem 2rem;
   border-radius: 0.5rem;
   font-weight: 500;
@@ -51,7 +51,7 @@ main .left .review{
 }
 
 main .left .review:hover{
-  background-color: rgb(177, 177, 253);
+  background-color: rgb(12, 18, 139);
 }
 
 
@@ -62,5 +62,18 @@ main .left .review:hover{
   width: 100%;
   margin: 0;
   border-radius: 0.7rem;
-  background-color: rgb(19, 19, 19);
+  background-color: rgb(102, 117, 119);       /*question scree*/
 } 
+
+.voice{
+  position: absolute;
+  bottom: 15px;
+  right:100px;
+}
+
+.malayalamToggle{
+  position: absolute;
+  bottom: 25px;
+  right:145px;
+  
+}
